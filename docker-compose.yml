@@ -14,10 +14,10 @@ services:
       - "3307:3306"
     command: mysqld --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci
     platform: linux/x86_64
-  pg:
-    image: postgres:latest
-    environment:
-      POSTGRES_USER: root
-      POSTGRES_PASSWORD: root
-    ports:
-      - "5432:5432"
+#  pg:
+#    image: postgres:latest
+#    environment:
+#      POSTGRES_USER: root
+#      POSTGRES_PASSWORD: root
+#    ports:
+#      - "5432:5432"
